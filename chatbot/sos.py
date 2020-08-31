@@ -20,11 +20,3 @@ def default_emergency(request, responder):
     responder.reply("Here is Tourist helpline number.~Call📞: +1800 6785 8696~I hope your query will be resolved.🙂")
     #makecall()
     responder.listen()
-
-#def makecall():
-    #client = Client()
-    #call = client.calls.create(
-                        #url='http://demo.twilio.com/docs/voice.xml',
-                        #to='+918887141688',
-                        #from_='+917348361073'
-                    #)

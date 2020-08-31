@@ -21,12 +21,6 @@ import validators
 from chatbot.middleware import latest_intent as l_t
 from chatbot.middleware import next_target_setHelper as nth
 
-
-#TWILIO_ACCOUNT_SID = 'ACc47f3cc342412b7097ad6f6c6fe19398'
-#TWILIO_AUTH_TOKEN = '36418b6fe7615bd068ad13f614bdc19d'
-#export TWILIO_AUTH_TOKEN=e0e696089a9a6a65774500c37edcb963
-#export TWILIO_ACCOUNT_SID=AC589b234a1d386d213e4434b0f148f1f0
-#client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 client = Client()
 class WhatsappBotServer:
 

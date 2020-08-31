@@ -7,3 +7,5 @@ APScheduler==3.6.3
 twilio
 beautifulsoup4
 validators
+uuid
+docxtpl
