@@ -1,7 +1,28 @@
 # atithi
-A ChatBot for Smart India Hackathon
 
-#### How to get Started (USE LINUX)
+## Overview
+Fusing the power of Whatsapp platform with MindMeld AI with the current tourism industry to boost tourism in India. 
+
+## Getting Started
+
+### Authoriztion Keys and Credentials
+
+The projects uses many API's to perform different tasks. Proper credentials must be entered beforehand.
+
+#### AWS Credentials (For S3 Bucket)
+Enter the valid key values in itinerary/config.py
+#### Cloudinary Credentials 
+Enter the valid key values in itinerary/config.py
+
+#### Twilio Credentials
+Enter the valid key values in main.sh
+
+
+### Installation
+
+Use Linux as the development environment.
+Clone the repository and follow these steps.
+
 Install Docker
 
 Create a Virtual Environment and activate it.
